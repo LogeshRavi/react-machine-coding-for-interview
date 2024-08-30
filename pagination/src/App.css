@@ -1,0 +1,46 @@
+/* Add this CSS to your App.css or within a <style> tag in your component */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns, each taking up equal space */
+  gap: 20px; /* Adds spacing between the grid items */
+  margin: 20px;
+}
+
+.grid span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f8f8f8;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.grid img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.grid p {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.pagination {
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+.pagination > span{
+  padding: 15px 20px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.pagination_selector {
+  background-color: gray;
+}
